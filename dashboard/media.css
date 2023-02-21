@@ -1,0 +1,95 @@
+@media (min-width: 1175px) {
+    body {
+        overflow: hidden;
+    }
+}
+@media (min-width: 975px) {
+    .active a, .nm-url-list a {
+        align-items: baseline;
+    }
+    main {
+        margin: 80px 80px 0 80px;
+    }
+    .nm-url {
+        display: block;
+    }
+    .nmu-i {
+        display: none;
+    }
+}
+@media (max-width: 475px) {
+    .adocc-btn {
+        display: none;
+    }
+}
+@media (min-width: 675px) {
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-humburger {
+        display: none;
+    }
+}
+@media (max-width: 675px) {
+    .company, .nm-panel {
+        display: none;
+    }
+    main {
+        grid-template-areas:
+        "header header"
+        "maincontent maincontent";
+    }
+    aside {
+        display: none;
+    }
+    .miwc-form {
+        width: 100%;
+    }
+}
+@media (max-width: 975px) {
+    main {
+        grid-template-columns: 115px auto;
+        border-radius: 0;
+    }
+    .active a, .nm-url-list a, .nm-panel, .mn-logout a {
+        display: none;
+    }
+    .active, .nm-url-list {
+        height: 56px;
+        align-items: center;
+        justify-content: center;
+    }
+    .mn-logout {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .nm-url {
+        display: none;
+    }
+    .nmu-i {
+        display: block;
+    }
+}
+@media (max-width: 1175px) {
+    .mi-wrapper {
+        grid-template-areas: 
+        "adoc"
+        "adir";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    aside {
+        min-height: 100vh;
+        background-color: #FFFFFF;
+    }
+}
+@media (max-width: 1400px) {
+    .miw-doc {
+        grid-template-columns: 1fr;
+    }
+}
